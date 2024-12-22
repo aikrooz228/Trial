@@ -1,0 +1,6 @@
+def hello(to):
+    print ("hello",to)
+name =input("Enter name :") .strip().title()   
+hello(name)
+
+    
