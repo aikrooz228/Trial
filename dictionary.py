@@ -22,5 +22,5 @@ language={'Gida': 'House',
           'Lafiya': 'Health',
           'Rubutu': 'Write',
           'Hanya': 'Road',
-          'yunwa:hunger'}
+          'yunwa':'hunger'}
 
