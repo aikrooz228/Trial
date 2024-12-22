@@ -46,13 +46,13 @@ while True:
         if account not  in accounts:
             print("You dont have a KZIP account")
         else:
-            withdraw = int(input("Enter the money you want to deposit\n"))
+            withdraw = int(input("Enter the money you  deposit\n"))
             w=accounts[account].withdraw(withdraw)
             print("Your balance is",w)
 
         if choice==4:
             account = int(input("Enter you KZIP account number\n"))
-git if account not in accounts:
+            if account not in accounts:
                 print("You dont have a KZIP account")
             else:
                 b=accounts[account].balance()
