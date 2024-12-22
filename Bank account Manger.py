@@ -52,7 +52,7 @@ while True:
 
         if choice==4:
             account = int(input("Enter you KZIP account number\n"))
-            if account not in accounts:
+git if account not in accounts:
                 print("You dont have a KZIP account")
             else:
                 b=accounts[account].balance()
